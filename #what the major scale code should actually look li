@@ -1,0 +1,15 @@
+#what the major scale code should actually look like
+#Every note is a dictionary. All of the musical material will be inside notes list.
+{"bpm": 120,"notes": [{"pitch": 60,"velocity": 88,"channel": 1,"time": 0,"duration": 4}, {"pitch": 62,"velocity": 88,"channel": 1,"time": 4,"duration": 4}, {"pitch": 64,"velocity": 88,"channel": 1,"time": 8,"duration": 4}]}
+
+
+
+
+
+
+{"bpm": 120,"notes": []}
+{"bpm": 120,"notes": []}
+{"bpm": 120,"notes": [{"pitch": 65,"velocity": 88,"channel": 1,"time": 12,"duration": 4}]}
+{"bpm": 120,"notes": [{"pitch": 67,"velocity": 88,"channel": 1,"time": 16,"duration": 4}]}
+{"bpm": 120,"notes": [{"pitch": 69,"velocity": 88,"channel": 1,"time": 20,"duration": 4}]}
+{"bpm": 120,"notes": [{"pitch": 71,"velocity": 88,"channel": 1,"time": 24,"duration": 4}]}

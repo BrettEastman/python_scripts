@@ -10,3 +10,11 @@ newword = input()
 replaced = text.replace(oldword, newword)
 
 print('replaced: ' + replaced)
+
+###
+
+spam = 'Hello there!'
+print('original spam: ' + spam)
+
+# spam.replace('e', '*****')
+print('replaced spam: ' + spam.replace('e', '*****'))

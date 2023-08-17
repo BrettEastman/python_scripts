@@ -15,7 +15,7 @@ def quick_sort(sequence):
     else:
       items_lesser.append(item)
 
-  return quick_sort[items_lesser] + [pivot] + quick_sort[items_greater]
+  return quick_sort(items_lesser) + [pivot] + quick_sort(items_greater)
 
 # unsorted_list = [2,5,3,7,9,556,34,6,0,11]
 
